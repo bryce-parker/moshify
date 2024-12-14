@@ -213,6 +213,21 @@ a {
   padding: 1.5rem 3.5rem;
 }
 
+.input-group {
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  display: flex;
+}
+
+.input-group .input {
+  border: 0;
+  flex-grow: 1;
+  padding: 1rem 1.5rem;
+}
+.input-group .btn {
+  margin: 4px;
+}
+
 ::placeholder {
   color: #cdcbd7;
 }
